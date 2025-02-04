@@ -1,0 +1,46 @@
+.todo-container {
+  text-align: center;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px solid #cccc;
+  width: 40%;
+}
+
+input {
+  background-color: #d3d3d3;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  width: 60%;
+  border: none;
+  outline: none;
+  margin-top: 2px;
+}
+
+button {
+  background-color: #414168;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 1rem;
+  width: 15%;
+  color: #ffffff;
+  display: inline-block;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #cccc;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
